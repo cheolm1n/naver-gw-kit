@@ -16,15 +16,14 @@ chmod 755 gwk.sh
 #### remote user 추가
 - ssh 접속에 사용할 remote user의 이름을 추가해줍니다. (21번 줄)
 ```
-USER_LIST_FOR_LOGIN=(remote_user)
+USER_LIST_FOR_LOGIN=(remote_user1 remote_user2)
 ```
 
 #### .known_host 작성
 - 자주 접속하는 서버의 호스트명을 작성합니다.
-- 호스트명과 설명은 탭으로 구분합니다.
 ```
 서버호스트명  설명
-blahblah.github.com example hostname
+blahblah.github.com     example hostname
 ```
 
 #### script 실행
